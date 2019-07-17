@@ -1,0 +1,32 @@
+hillelkh, gabriel121
+Hillel Kholmyansky (203283734), Gabriel Ben-Hur (203817614)
+EX: 4
+
+FILES:
+whatsappServer.cpp
+whatsappClient.cpp
+whatsappClient.h
+whatsappio.cpp
+whatsappio.h
+README
+Makefile
+
+
+REMARKS:
+
+ANSWERS:
+1)
+    a. we will modify the parser and add an opcode to support the command.
+
+    b. First we will add an opcode to support the command.
+       Then when we identify the command we'll erase the name from the client's vector of group names.
+
+2. for whatsapp like service we need reliable transformation of information, that includes indication to tell us
+   if the other side received the message fully and in the right order.
+
+3. video streaming & online gaming - UDP is less reliable than TCP but is faster.
+    In these cases the speed of communications beets the accuracy.
+
+4. After every iteration (or some iterations), we will save the data to a file.
+   The file is on the hard disk so in the event of crashing the information is not lost,
+   and we can restore it when the server goes back up.
